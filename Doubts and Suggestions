@@ -1,0 +1,13 @@
+I am facing some issues that I am unable to google my way out. Any suggestions or help is appreciated. 
+Mail it to me at akshaykarhade@gmail.com
+
+1. The "A value is trying to be set on a copy of a slice from a DataFrame. 
+Try using .loc[row_indexer,col_indexer] = value instead" warning is something I am unable to get rid of. 
+    
+I have tried the following:
+a. add .copy() to the column being created but it leads to unstable behavior as the new column sometimes gets 
+   added to the df sometime sit doesnt.
+b. add .loc[row_indexer,col_indexer] , Here I am not sure I understand what is row_indexer and,col_indexer. 
+
+2. The Preferred mode is something I tried to calculate successfully but I have been unable to plot a bar graph with multiple values on the X axis.
+Still need to brush up the Matplotlib concepts. Any suggestions?
